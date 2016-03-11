@@ -1,0 +1,37 @@
+{
+  "name": "subchannel-service",
+  "version": "1.0.0",
+  "description": "Subchannel preconfigured service",
+  "keywords": [
+    "subchannel",
+    "service"
+  ],
+  "homepage": "https://github.com/subchannel/subchannel-service#readme",
+  "bugs": {
+    "url": "https://github.com/subchannel/subchannel-service/issues",
+    "email": "code@subchannel.io"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Subchannel Engineering <code@subchannel.io> (http://subchannel.io)",
+  "files": [
+    "lib",
+    "AUTHORS"
+  ],
+  "main": "lib/index.js",
+  "repository": "subchannel/subchannel-service",
+  "scripts": {
+    "pretest": "eslint lib test",
+    "test": "NODE_ENV=test mocha"
+  },
+  "dependencies": {
+    "good": "^6.6.0",
+    "good-console": "^5.3.1",
+    "hapi": "^13.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-subchannel": "^2.0.0",
+    "mocha": "^2.4.5",
+    "request": "^2.69.0"
+  }
+}
