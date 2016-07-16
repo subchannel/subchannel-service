@@ -1,6 +1,6 @@
 # subchannel-service
 
-[![Codeship Status for subchannel/subchannel-service](https://codeship.com/projects/a5995060-c87f-0133-b542-5648feceb195/status?branch=master)](https://codeship.com/projects/139350)
+**This repository is deprecated. We’ve realized this was a bad idea and a much better idea would be to use [hapi](http://hapijs.com)’s plugin system to compose our services.**
 
 ### Introduction
 

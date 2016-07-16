@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+- Deprecate package in favor of using composable plugins
+
 ## [1.0.0] - 2016-03-10
 
 - Set up basic `hapi` server
